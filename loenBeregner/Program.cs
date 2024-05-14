@@ -47,7 +47,7 @@ namespace loenBeregner
                 }
 
                 // Optionally get a different Tax deduction
-                Console.Write("Vil du ændre i dit personfradrag? (ja/nej): ");
+                Console.Write("Vil du ændre i dit personfradrag fra standard 4352kr? (ja/nej): ");
                 string changeTaxDeduction = Console.ReadLine().ToLower();
                 
                 if(changeTaxDeduction == "ja")
