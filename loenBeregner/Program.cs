@@ -18,6 +18,7 @@ namespace loenBeregner
             decimal taxDeduction = 4352m;
             decimal taxRate = 0.38m;
             decimal SU = 1824m;
+            
 
             while (true)
             {
@@ -25,6 +26,7 @@ namespace loenBeregner
                 // Get user input for hours worked
                 Console.Write("Indtast antal timer: ");
                 int hoursWorked = int.Parse(Console.ReadLine());
+
 
                 // Optionally get a different hourly wage
                 Console.Write("Vil du ændre timelønnen fra standard 139kr? (ja/nej): ");
